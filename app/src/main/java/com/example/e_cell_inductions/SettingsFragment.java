@@ -32,9 +32,9 @@ public class SettingsFragment extends ListFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        list.add("1");
-        list.add("2");
-        list.add("3");
+        list.add("we can add settings here");
+        list.add("then we can make it functional by using action listeners and more");
+        list.add("work in progress");
         View v = inflater.inflate(R.layout.fragment_settings, container, false);
         ArrayAdapter adapter = new ArrayAdapter(getContext(), android.R.layout.simple_list_item_1,list);
         setListAdapter(adapter);
